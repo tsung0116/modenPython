@@ -40,4 +40,4 @@ class Circle():
 
 c = Circle(5)
 print(c.diameter)
-c.diameter = 20
+# c.diameter = 20    #AttributeError: can't set attribute

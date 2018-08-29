@@ -1,7 +1,7 @@
-# Positional Arguments
 def menu(wine, entree, dessert):
     return {'wine': wine, 'entree': entree, 'dessert': dessert}
 
+# Positional Arguments
 menu1 = menu('chardonnay', 'chicken', 'cake')
 print(menu1)
 

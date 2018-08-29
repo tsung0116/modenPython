@@ -42,4 +42,5 @@ class Yugo(Car):
 
 car = Car()
 print(car.exclaim())
-print(car.exclaim(car))
+# print(car.exclaim(car))  # TypeError: exclaim() takes 1 positional argument but 2 were given
+
