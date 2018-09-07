@@ -1,0 +1,2 @@
+['One', 'Two', 'Three', 'Four', 'Five']
+['One', 'Two', 'Three', 'Four', 'Five']%%hello$$$['One\n', 'Two\n', 'Three\n', 'Four\n', 'Five\n']
