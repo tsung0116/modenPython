@@ -8,7 +8,11 @@ class Knock(protocol.Protocol):
         else:
             response = data + " who?".encode('utf-8')
         print("Server:{}".format(response))
-        self.transport.write(response)
+        print('Type of response {}'.format(type(response)))
+        if isinstance(response, str): 
+            self.transport.write(response.encode())
+        else:
+            self.transport.write(response)
 
 class KnockFactory(protocol.Factory):
     def buildProtocol(self, addr):
